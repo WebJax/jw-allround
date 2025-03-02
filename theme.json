@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "name": "Primary", "slug": "primary", "color": "#005b9a" },
+        { "name": "Text", "slug": "text", "color": "#0d0d0d" },
+        { "name": "Background", "slug": "background", "color": "hsla(0,0%,91%,.5)" },
+        { "name": "Dark Background", "slug": "dark-background", "color": "#2f2f2f" },
+        { "name": "Dark Text", "slug": "dark-text", "color": "#ececec" },
+        { "name": "Gray Light", "slug": "gray-light", "color": "#d9d9d9" },
+        { "name": "Gray Medium", "slug": "gray-medium", "color": "#a6a6a6" },
+        { "name": "Gray Dark", "slug": "gray-dark", "color": "#595959" }
+      ],
+      "gradients": [
+        { "name": "Primary to Darker", "slug": "primary-darker", "gradient": "linear-gradient(135deg, #005b9a, #003f6b)" },
+        { "name": "Primary to Lighter", "slug": "primary-lighter", "gradient": "linear-gradient(135deg, #005b9a, #3393d1)" },
+        { "name": "Dark to Medium Gray", "slug": "dark-medium-gray", "gradient": "linear-gradient(135deg, #2f2f2f, #595959)" }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        { "name": "Small", "slug": "small", "size": "14px" },
+        { "name": "Normal", "slug": "normal", "size": "16px" },
+        { "name": "Large", "slug": "large", "size": "24px" },
+        { "name": "XL", "slug": "xl", "size": "32px" },
+        { "name": "XXL", "slug": "xxl", "size": "48px" }
+      ],
+      "fontFamilies": [
+        { "name": "Hind Siliguri", "slug": "hind-siliguri", "fontFamily": "'Hind Siliguri', Arial, serif" }
+      ]
+    },
+    "spacing": {
+      "customPadding": true,
+      "customMargin": true,
+      "gutter": "16px",
+      "containerMaxWidth": "1200px"
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "hsla(0,0%,91%,.5)",
+      "text": "#0d0d0d",
+      "link": "#005b9a"
+    },
+    "typography": {
+      "fontFamily": "'Hind Siliguri', Arial, serif",
+      "fontSize": "16px"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "#005b9a",
+          "text": "#ffffff"
+        },
+        "border": {
+          "radius": "4px" },
+        "hover": {
+          "color": {
+            "background": "#003f6b"
+          }
+        }
+      },
+      "card": {
+        "border": {
+          "radius": "4px" },
+        "shadow": "0px 4px 10px rgba(0, 0, 0, 0.1)"
+      }
+    }
+  }
+}
