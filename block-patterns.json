@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "patterns": [
+    {
+      "name": "hero-section",
+      "title": "Hero Section",
+      "content": "<!-- wp:cover {\"dimRatio\":50} -->\n<div class=\"wp-block-cover\">\n  <div class=\"wp-block-cover__inner-container\">\n    <!-- wp:heading {\"level\":1} -->\n    <h1>Welcome to Our Logistics Services</h1>\n    <!-- /wp:heading -->\n    <!-- wp:paragraph -->\n    <p>Your trusted partner in global transportation.</p>\n    <!-- /wp:paragraph -->\n    <!-- wp:buttons -->\n    <div class=\"wp-block-buttons\">\n      <div class=\"wp-block-button\"><a class=\"wp-block-button__link\">Get a Quote</a></div>\n    </div>\n    <!-- /wp:buttons -->\n  </div>\n</div>\n<!-- /wp:cover -->"
+    },
+    {
+      "name": "logo-carousel",
+      "title": "Logo/Partner Carousel",
+      "content": "<!-- wp:group -->\n<div class=\"wp-block-group\">\n  <!-- wp:columns -->\n  <div class=\"wp-block-columns\">\n    <!-- wp:image --><img src=\"dummy-logo1.jpg\" alt=\"Partner 1\" /><!-- /wp:image -->\n    <!-- wp:image --><img src=\"dummy-logo2.jpg\" alt=\"Partner 2\" /><!-- /wp:image -->\n    <!-- wp:image --><img src=\"dummy-logo3.jpg\" alt=\"Partner 3\" /><!-- /wp:image -->\n  </div>\n  <!-- /wp:columns -->\n</div>\n<!-- /wp:group -->"
+    },
+    {
+      "name": "feature-section",
+      "title": "Feature Section",
+      "content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\">\n  <!-- wp:column -->\n  <div class=\"wp-block-column\">\n    <!-- wp:image --><img src=\"dummy-feature.jpg\" alt=\"Feature\" /><!-- /wp:image -->\n    <!-- wp:heading {\"level\":3} -->\n    <h3>Reliable & Secure</h3>\n    <!-- /wp:heading -->\n    <!-- wp:paragraph -->\n    <p>We ensure the safety of your cargo at every step.</p>\n    <!-- /wp:paragraph -->\n  </div>\n  <!-- /wp:column -->\n</div>\n<!-- /wp:columns -->"
+    },
+    {
+      "name": "steps-timeline",
+      "title": "Steps/Tidslinje",
+      "content": "<!-- wp:list -->\n<ul>\n  <li><strong>Step 1:</strong> Request a quote</li>\n  <li><strong>Step 2:</strong> Transport your package</li>\n  <li><strong>Step 3:</strong> Deliver package safely</li>\n</ul>\n<!-- /wp:list -->"
+    },
+    {
+      "name": "services-grid",
+      "title": "Services Grid",
+      "content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\">\n  <!-- wp:column -->\n  <div class=\"wp-block-column\">\n    <!-- wp:image --><img src=\"dummy.jpg\" alt=\"Service 1\" /><!-- /wp:image -->\n    <!-- wp:heading {\"level\":3} -->\n    <h3>International Freight</h3>\n    <!-- /wp:heading -->\n    <!-- wp:paragraph -->\n    <p>Reliable shipping solutions worldwide.</p>\n    <!-- /wp:paragraph -->\n  </div>\n  <!-- /wp:column -->\n</div>\n<!-- /wp:columns -->"
+    },
+    {
+      "name": "faq-accordion",
+      "title": "FAQ Accordion",
+      "content": "<!-- wp:details -->\n<details>\n  <summary>What is the best way to track my shipment?</summary>\n  <p>You can track your shipment using our online tracking system.</p>\n</details>\n<!-- /wp:details -->"
+    },
+    {
+      "name": "testimonial-section",
+      "title": "Testimonial Section",
+      "content": "<!-- wp:quote -->\n<blockquote>\n  <p>Great service! Fast and reliable logistics solutions.</p>\n  <cite>John Doe</cite>\n</blockquote>\n<!-- /wp:quote -->"
+    },
+    {
+      "name": "contact-form",
+      "title": "Contact Form",
+      "content": "<!-- wp:group -->\n<div class=\"wp-block-group\">\n  <!-- wp:heading {\"level\":2} -->\n  <h2>Request a Quote</h2>\n  <!-- /wp:heading -->\n  <!-- wp:paragraph -->\n  <p>Fill in the form below to get a free quote.</p>\n  <!-- /wp:paragraph -->\n  <!-- wp:contact-form /-->
+  <div class=\"wp-block-form\">[contact-form-7 id='123' title='Request a Quote']</div>\n</div>\n<!-- /wp:group -->"
+    },
+    {
+      "name": "footer-section",
+      "title": "Footer Section",
+      "content": "<!-- wp:group -->\n<div class=\"wp-block-group\">\n  <!-- wp:paragraph -->\n  <p>&copy; 2025 Your Company. All rights reserved.</p>\n  <!-- /wp:paragraph -->\n  <!-- wp:social-links -->\n  <ul class=\"wp-block-social-links\">\n    <li><a href=\"#\">Facebook</a></li>\n    <li><a href=\"#\">Twitter</a></li>\n    <li><a href=\"#\">LinkedIn</a></li>\n  </ul>\n  <!-- /wp:social-links -->\n</div>\n<!-- /wp:group -->"
+    }
+  ]
+}
