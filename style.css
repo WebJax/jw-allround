@@ -1,0 +1,46 @@
+/* Global styles */
+body {
+  font-family: 'Hind Siliguri', Arial, serif;
+  background: hsla(0,0%,91%,.5);
+  color: #0d0d0d;
+  margin: 0;
+  padding: 0;
+}
+
+/* Buttons */
+.button {
+  background: #005b9a;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+.button:hover {
+  background: #003f6b;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #005b9a, #003f6b);
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Footer */
+.footer {
+  background: #2f2f2f;
+  color: #ececec;
+  text-align: center;
+  padding: 20px;
+}
