@@ -1,0 +1,11 @@
+<!-- page-home.html -->
+<?php
+/* Template Name: Home */
+get_header();
+?>
+<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => 'nav', 'container_class' => 'main-menu')); ?>
+<main>
+    <?php echo do_blocks('<!-- wp:pattern {"slug":"hero-section"} /-->'); ?>
+    <?php echo do_blocks('<!-- wp:pattern {"slug":"services-grid"} /-->'); ?>
+</main>
+<?php get_footer(); ?>
