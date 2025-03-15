@@ -1,0 +1,12 @@
+<!-- parts/footer.html -->
+<footer>
+    <div class="footer-widgets">
+        <?php if (is_active_sidebar('footer-1')) {
+            dynamic_sidebar('footer-1');
+        } ?>
+    </div>
+    <div class="footer-info">
+        <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.</p>
+    </div>
+    <?php wp_footer(); ?>
+</footer>
