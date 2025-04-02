@@ -1,13 +1,10 @@
 <!-- parts/header.html -->
-<header>
-    <div class="logo">
-        <?php if (has_custom_logo()) {
-            the_custom_logo();
-        } else { ?>
-            <h1><?php bloginfo('name'); ?></h1>
-        <?php } ?>
-    </div>
-    <nav>
-        <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => 'nav', 'container_class' => 'main-menu')); ?>
-    </nav>
-</header>
+<!-- wp:group {"className":"site-header","layout":{"type":"constrained"}} -->
+<div class="wp-block-group site-header">
+  <!-- wp:site-logo {"width":120} /-->
+  
+  <!-- wp:site-title {"style":{"typography":{"fontWeight":"bold"}}} /-->
+  
+  <!-- wp:navigation {"layout":{"type":"flex","orientation":"horizontal","justifyContent":"right"}} /-->
+</div>
+<!-- /wp:group -->

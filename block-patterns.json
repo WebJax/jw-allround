@@ -4,7 +4,7 @@
     {
       "name": "hero-section",
       "title": "Hero Section",
-      "content": "<!-- wp:cover {\"dimRatio\":50} -->\n<div class=\"wp-block-cover\">\n  <div class=\"wp-block-cover__inner-container\">\n    <!-- wp:heading {\"level\":1} -->\n    <h1>Welcome to Our Logistics Services</h1>\n    <!-- /wp:heading -->\n    <!-- wp:paragraph -->\n    <p>Your trusted partner in global transportation.</p>\n    <!-- /wp:paragraph -->\n    <!-- wp:buttons -->\n    <div class=\"wp-block-buttons\">\n      <div class=\"wp-block-button\"><a class=\"wp-block-button__link\">Get a Quote</a></div>\n    </div>\n    <!-- /wp:buttons -->\n  </div>\n</div>\n<!-- /wp:cover -->"
+      "content": "<!-- wp:cover {\"url\":\"\",\"dimRatio\":60,\"overlayColor\":\"primary\",\"minHeight\":80,\"minHeightUnit\":\"vh\",\"contentPosition\":\"center center\",\"align\":\"full\"} -->\n<div class=\"wp-block-cover alignfull has-primary-background-color\" style=\"min-height:80vh\"><span aria-hidden=\"true\" class=\"wp-block-cover__background has-primary-background-color has-background-dim-60 has-background-dim\"></span><div class=\"wp-block-cover__inner-container\"><!-- wp:group {\"layout\":{\"type\":\"constrained\",\"contentSize\":\"800px\"}} -->\n<div class=\"wp-block-group\"><!-- wp:heading {\"textAlign\":\"center\",\"level\":1,\"textColor\":\"white\",\"fontSize\":\"xxl\"} -->\n<h1 class=\"wp-block-heading has-text-align-center has-white-color has-text-color has-xxl-font-size\">Velkommen til JW Allround</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"white\",\"fontSize\":\"medium\"} -->\n<p class=\"has-text-align-center has-white-color has-text-color has-medium-font-size\">Din pålidelige partner i logistik og transport over hele verden</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"backgroundColor\":\"white\",\"textColor\":\"primary\",\"className\":\"is-style-fill\"} -->\n<div class=\"wp-block-button is-style-fill\"><a class=\"wp-block-button__link has-primary-color has-white-background-color has-text-color has-background wp-element-button\">Få et tilbud</a></div>\n<!-- /wp:button -->\n\n<!-- wp:button {\"textColor\":\"white\",\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link has-white-color has-text-color wp-element-button\">Læs mere om os</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:group --></div></div>\n<!-- /wp:cover -->"
     },
     {
       "name": "logo-carousel",
@@ -39,8 +39,7 @@
     {
       "name": "contact-form",
       "title": "Contact Form",
-      "content": "<!-- wp:group -->\n<div class=\"wp-block-group\">\n  <!-- wp:heading {\"level\":2} -->\n  <h2>Request a Quote</h2>\n  <!-- /wp:heading -->\n  <!-- wp:paragraph -->\n  <p>Fill in the form below to get a free quote.</p>\n  <!-- /wp:paragraph -->\n  <!-- wp:contact-form /-->
-  <div class=\"wp-block-form\">[contact-form-7 id='123' title='Request a Quote']</div>\n</div>\n<!-- /wp:group -->"
+      "content": "<!-- wp:group -->\n<div class=\"wp-block-group\">\n  <!-- wp:heading {\"level\":2} -->\n  <h2>Request a Quote</h2>\n  <!-- /wp:heading -->\n  <!-- wp:paragraph -->\n  <p>Fill in the form below to get a free quote.</p>\n  <!-- /wp:paragraph -->\n  <!-- wp:contact-form /-->\n  <div class=\"wp-block-form\">[contact-form-7 id='123' title='Request a Quote']</div>\n</div>\n<!-- /wp:group -->"
     },
     {
       "name": "footer-section",
